@@ -2,28 +2,35 @@
 
 int main(){
     char estado;
-    char codigo da Carta;
-    int cidade;
+    int codigo[3];
+    int cidade[30];
     int populacao;
-    float area enum km;
+    float area;
     float PIB;
-    int numeros de pontos turisticos;
-
-
-    printf("digite o estado: \n");
-
-
-    printf("Digite a cidade: \n");
-
-
-    printf("digite o codigo da carta: \n");
+    int pontosturisticos;
 
     
+    printf("digite o codigo: \n");
+    scanf("%s", &codigo);
+
+    printf("Digite o estado: \n");
+    scanf("%s", &estado);
+
+    printf("digite a cidade: \n");
+    scanf("%s", &cidade);
+    
+    printf("digite a populacao: \n");
+    scanf("%d", &populacao);
+
+    printf("digite a area: \n");
+    scanf("%f", &area);
+
+    printf("digite o PIB: \n");
+    scanf("%f", &PIB);
+
+    printf("digite o pontos turisticos: \n");
+    scanf("%f", &pontosturisticos);
 
     return 0;
-
-
-
-
 
 }
